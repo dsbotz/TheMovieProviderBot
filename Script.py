@@ -249,9 +249,12 @@ Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
     
     CAPTION = """ 📂 <i><a href="https://t.me/beautyofthemoviesx">{file_caption}
     
-    ⚙️ Sɪᴢᴇ : {file_size}
+    ⚙️ Sɪᴢᴇ : {file_size}</a></i>\n\n<b>
+    
+    ⚜️POWERED BY:</a></b>\n\n<b>⚜️ Powered By : <a href=https://t.me/beautyofthemoviesx>[𝘽𝙏𝙈𝙓] 
+    
     ♡ ㅤ  ❍ㅤ     ⎙     ⌲
-ˡᶦᵏᵉ ᶜᵒᵐᵐᵉⁿᵗ  ˢᵃᵛᵉ  ˢʰᵃʳᵉ</a></i>\n\n"""
+   ˡᶦᵏᵉ ᶜᵒᵐᵐᵉⁿᵗ  ˢᵃᵛᵉ  ˢʰᵃʳᵉ</a></b>"""
 
     IMDB_TEMPLATE_TXT = """
 <b>ʜᴇʏ {message.from_user.mention}, ʜᴇʀᴇ ɪꜱ ᴛʜᴇ ʀᴇꜱᴜʟᴛꜱ ꜰᴏʀ ʏᴏᴜʀ ǫᴜᴇʀʏ {search}.
