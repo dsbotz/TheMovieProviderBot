@@ -1480,7 +1480,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             if await db.has_premium_access(user_id):                               
                 buttons = [[
                     InlineKeyboardButton("🚀 ꜰᴀꜱᴛ ᴅᴏᴡɴʟᴏᴀᴅ", url=lazy_download),
-                    InlineKeyboardButton("ᴡᴀᴛᴄʜ ᴏɴʟɪɴᴇ 🧿", url=lazy_stream)
+                    InlineKeyboardButton("ᴡᴀᴛᴄʜ ᴏɴʟɪɴᴇ 🖥", url=lazy_stream)
                 ],[
                     InlineKeyboardButton('📌 ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ 📌', url='https://t.me/beautyofthemoviesx')
                 ]]
@@ -1493,7 +1493,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("💸 ᴄʜᴇᴄᴋᴏᴜᴛ ᴘʀᴇᴍɪᴜᴍ ᴘʟᴀɴꜱ 💸", callback_data='seeplans')]]))
                 buttons = [[
                     InlineKeyboardButton("🚀 ꜰᴀꜱᴛ ᴅᴏᴡɴʟᴏᴀᴅ", url=lazy_download),
-                    InlineKeyboardButton("ᴡᴀᴛᴄʜ ᴏɴʟɪɴᴇ 🧿", url=lazy_stream)
+                    InlineKeyboardButton("ᴡᴀᴛᴄʜ ᴏɴʟɪɴᴇ 🖥", url=lazy_stream)
                 ],[
                     InlineKeyboardButton('❗ʜᴏᴡ ᴛᴏ ᴏᴘᴇɴ ʟɪɴᴋ❗', url=STREAMHTO)
                 ]]
@@ -1507,7 +1507,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     quote=True,
                     disable_web_page_preview=True,
                     reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🚀 ꜰᴀꜱᴛ ᴅᴏᴡɴʟᴏᴀᴅ", url=lazy_download),
-                                                        InlineKeyboardButton('ᴡᴀᴛᴄʜ ᴏɴʟɪɴᴇ 🧿', url=lazy_stream)]]))  
+                                                        InlineKeyboardButton('ᴡᴀᴛᴄʜ ᴏɴʟɪɴᴇ 🖥', url=lazy_stream)]]))  
         except Exception as e:
             print(e)  # print the error message
             await query.answer(f"⚠️ SOMETHING WENT WRONG \n\n{e}", show_alert=True)
@@ -1631,16 +1631,16 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
     elif query.data == "premium_info":
         buttons = [[
-            InlineKeyboardButton('• ꜰʀᴇᴇ ᴛʀɪᴀʟ •', callback_data='free')
+            InlineKeyboardButton('ꜰʀᴇᴇ ᴛʀɪᴀʟ 🆓️', callback_data='free')
         ],[
-            InlineKeyboardButton('• ʙʀᴏɴᴢᴇ •', callback_data='broze'),
-            InlineKeyboardButton('• ꜱɪʟᴠᴇʀ •', callback_data='silver')
+            InlineKeyboardButton('ʙʀᴏɴᴢᴇ 🥉', callback_data='broze'),
+            InlineKeyboardButton('ꜱɪʟᴠᴇʀ 🥈', callback_data='silver')
         ],[
-            InlineKeyboardButton('• ɢᴏʟᴅ •', callback_data='gold'),
-            InlineKeyboardButton('• ᴘʟᴀᴛɪɴᴜᴍ •', callback_data='platinum')
+            InlineKeyboardButton('ɢᴏʟᴅ 🏅', callback_data='gold'),
+            InlineKeyboardButton('ᴘʟᴀᴛɪɴᴜᴍ 🥈🥈', callback_data='platinum')
         ],[
-            InlineKeyboardButton('• ᴅɪᴀᴍᴏɴᴅ •', callback_data='diamond'),
-            InlineKeyboardButton('• ᴏᴛʜᴇʀ •', callback_data='other')
+            InlineKeyboardButton('ᴅɪᴀᴍᴏɴᴅ 💎', callback_data='diamond'),
+            InlineKeyboardButton('ᴏᴛʜᴇʀ 🎫', callback_data='other')
         ],[            
             InlineKeyboardButton('⇋ ʙᴀᴄᴋ ᴛᴏ ʜᴏᴍᴇ ⇋', callback_data='start')
         ]]
@@ -1774,15 +1774,15 @@ async def cb_handler(client: Client, query: CallbackQuery):
   
     elif query.data == "channels":
         buttons = [[
-            InlineKeyboardButton('⚜️ ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ ⚜️', url='https://t.me/beautyofthemoviesx')
+            InlineKeyboardButton('𝐔𝐏𝐃𝐀𝐓𝐄𝐒 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 📢', url='https://t.me/beautyofthemoviesx')
         ],[
-            InlineKeyboardButton('🔥𝐀𝐒.𝐄𝐃𝐈𝐓𝐈𝐎𝐍🔥', url='https://t.me/+MP3U7lQPFDRlOWQ1'),
-            InlineKeyboardButton('✨️𝐋𝐘𝐑𝐈𝐂𝐒 𝐎𝐅 𝐊𝐃𝐑𝐀𝐌𝐀 𝐂𝐃𝐑𝐀𝐌𝐀✨️', url='https://t.me/kdramacdramainhindi0')
+            InlineKeyboardButton('𝐀𝐒.𝐄𝐃𝐈𝐓𝐈𝐎𝐍🔥', url='https://t.me/+MP3U7lQPFDRlOWQ1'),
+            InlineKeyboardButton('✨️𝐋𝐘𝐑𝐈𝐂𝐒 𝐎𝐅 𝐊𝐃𝐑𝐀𝐌𝐀 𝐂𝐃𝐑𝐀𝐌𝐀', url='https://t.me/kdramacdramainhindi0')
         ],[
-            InlineKeyboardButton('🎬 𝐌𝐨𝐯𝐢𝐞𝐬 𝐙𝐨𝐧𝐞 🎬', url='https://t.me/beautyofthemoviesdiscussion')
+            InlineKeyboardButton('𝐌𝐨𝐯𝐢𝐞𝐬 𝐙𝐨𝐧𝐞 🎬', url='https://t.me/beautyofthemoviesdiscussion')
         ],[
             InlineKeyboardButton('⇇ ʙᴀᴄᴋ', callback_data='start'),
-            InlineKeyboardButton('ꜱᴜᴘᴘᴏʀᴛ 👮', url='https://t.me/Beautyofsupportbot')
+            InlineKeyboardButton('𝐒𝐔𝐏𝐏𝐎𝐑𝐓 👮', url='https://t.me/Beautyofsupportbot')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -1829,10 +1829,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
     elif query.data == "help":
         buttons = [[
-            InlineKeyboardButton('• ʙᴏᴛ ᴀᴅᴍɪɴ ᴄᴏᴍᴍᴀɴᴅꜱ •', callback_data='admic')
+            InlineKeyboardButton('𝙱𝙾𝚃 𝙰𝙳𝙼𝙸𝙽 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂 ⚛️', callback_data='admic')
         ], [
-            InlineKeyboardButton('• ᴜꜱᴇʀ •', callback_data='users'),
-            InlineKeyboardButton('• ɢʀᴏᴜᴘ •', callback_data='group')
+            InlineKeyboardButton('𝚄𝚂𝙴𝚁 🙎', callback_data='users'),
+            InlineKeyboardButton('𝙶𝚁𝙾𝚄𝙿 ☸️', callback_data='group')
         ], [
             InlineKeyboardButton('⇋ ʙᴀᴄᴋ ᴛᴏ ʜᴏᴍᴇ ⇋', callback_data='start')
         ]]
@@ -1844,16 +1844,16 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons = [[
-            InlineKeyboardButton('‼️ ᴅɪꜱᴄʟᴀɪᴍᴇʀ ‼️', callback_data='disclaimer'),
+            InlineKeyboardButton('‼️ 𝘿𝙄𝙎𝘾𝙇𝘼𝙄𝙈𝙀𝙍 ‼️', callback_data='disclaimer'),
         ], [
-            InlineKeyboardButton ('• ᴄʀᴇᴅɪᴛꜱ ᴛᴏ ᴛʜᴇ ᴅᴇᴠᴇʟᴏᴘᴇʀꜱ •', callback_data='credits'),
+            InlineKeyboardButton ('𝘾𝙍𝙀𝘿𝙄𝙏𝙎 𝙏𝙊 𝙏𝙃𝙀 𝘿𝙀𝙑𝙀𝙇𝙊𝙋𝙀𝙍 🔰', callback_data='credits'),
         ], [
-            InlineKeyboardButton('• ᴏᴡɴᴇʀ •', user_id=int(1727523344)),
-            InlineKeyboardButton('• ꜱᴛᴀᴛꜱ •', callback_data='stats')
+            InlineKeyboardButton('🔱 𝙊𝙒𝙉𝙀𝙍 🔱', user_id=int(1727523344)),
+            InlineKeyboardButton('𝙎𝙏𝘼𝙏𝙎 ♻️', callback_data='stats')
         ], [
-            InlineKeyboardButton('🛰️ ʀᴇɴᴅᴇʀɪɴɢ ꜱᴛᴀᴛᴜꜱ ☁️',callback_data='rendr')
+            InlineKeyboardButton('🛰️ 𝙍𝙀𝙉𝘿𝙀𝙍𝙄𝙉𝙂 𝙎𝙏𝘼𝙏𝙐𝙎 ☁️',callback_data='rendr')
         ], [
-            InlineKeyboardButton('⇋ ʙᴀᴄᴋ ᴛᴏ ʜᴏᴍᴇ ⇋', callback_data='start')
+            InlineKeyboardButton('⇋ 𝗕𝗔𝗖𝗞 𝗧𝗢 𝗛𝗢𝗠𝗘 ⇋', callback_data='start')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
