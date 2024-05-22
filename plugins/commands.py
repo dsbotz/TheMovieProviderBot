@@ -51,7 +51,7 @@ async def start(client, message):
                     InlineKeyboardButton('𝒞𝒪𝑀𝑀𝒜𝒩𝒟𝒮 ♋️', callback_data='help'),
                     InlineKeyboardButton('𝓐𝓑𝓞𝓤𝓣 〽️™️', callback_data='about')
                 ],[
-                    InlineKeyboardButton('🅱🆄🆈 🆂🆄🅱🆂🅲🆁🅸🅿🆃🅸🅾🅽: 🆁🅴🅼🅾🆅🅴 🅰🅳🆂 ✨', callback_data="premium_info")
+                    InlineKeyboardButton('✨️ ʙᴜʏ ꜱᴜʙꜱᴄʀɪᴘᴛɪᴏɴ: ʀᴇᴍᴏᴠᴇ ᴀᴅꜱ ✨', callback_data="premium_info")
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         current_time = datetime.now(pytz.timezone(TIMEZONE))
@@ -123,7 +123,7 @@ async def start(client, message):
                     InlineKeyboardButton('𝒞𝒪𝑀𝑀𝒜𝒩𝒟𝒮 ♋️', callback_data='help'),
                     InlineKeyboardButton('𝓐𝓑𝓞𝓤𝓣 〽️™️', callback_data='about')
                 ],[
-                    InlineKeyboardButton('🅱🆄🆈 🆂🆄🅱🆂🅲🆁🅸🅿🆃🅸🅾🅽: 🆁🅴🅼🅾🆅🅴 🅰🅳🆂 ✨', callback_data="premium_info")
+                    InlineKeyboardButton('✨️ ʙᴜʏ ꜱᴜʙꜱᴄʀɪᴘᴛɪᴏɴ: ʀᴇᴍᴏᴠᴇ ᴀᴅꜱ ✨', callback_data="premium_info")
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         current_time = datetime.now(pytz.timezone(TIMEZONE))
