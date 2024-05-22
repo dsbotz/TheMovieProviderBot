@@ -43,13 +43,13 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-                    InlineKeyboardButton('☆ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ☆', url=f'http://telegram.me/{temp.U_NAME}?startgroup=true')
+                    InlineKeyboardButton('☆ 𝒜𝒟𝒟 𝑀𝐸 𝒯𝒪 𝒴𝒪𝒰𝑅 𝒢𝑅𝒪𝒰𝒫 ☆', url=f'http://telegram.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('💸 ᴇᴀʀɴ ᴍᴏɴᴇʏ 💸', callback_data="shortlink_info"),
-                    InlineKeyboardButton('• ᴜᴘᴅᴀᴛᴇꜱ •', callback_data='channels')
+                    InlineKeyboardButton('𝐸𝒜𝑅𝒩 𝑀𝒪𝒩𝐸𝒴 💸', callback_data="shortlink_info"),
+                    InlineKeyboardButton('υׁׅ℘ժׁׅ݊ɑׁׅ֮tׁׅꫀׁׅܻ꯱ׁׅ֒ ✨️', callback_data='channels')
                 ],[
-                    InlineKeyboardButton('• ᴄᴏᴍᴍᴀɴᴅꜱ •', callback_data='help'),
-                    InlineKeyboardButton('• ᴀʙᴏᴜᴛ •', callback_data='about')
+                    InlineKeyboardButton('𝒞𝒪𝑀𝑀𝒜𝒩𝒟𝒮 ♋️', callback_data='help'),
+                    InlineKeyboardButton('𝓐𝓑𝓞𝓤𝓣 〽️™️', callback_data='about')
                 ],[
                     InlineKeyboardButton('✨ ʙᴜʏ ꜱᴜʙꜱᴄʀɪᴘᴛɪᴏɴ : ʀᴇᴍᴏᴠᴇ ᴀᴅꜱ ✨', callback_data="premium_info")
                   ]]
