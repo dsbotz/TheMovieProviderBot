@@ -247,7 +247,7 @@ Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
 """ 
    # PLEASE DO NOT REMOVE ANY CREDITS ❤️‍🩹
     
-    CAPTION = """ 📂 <i><a href="https://t.me/beautyofthemoviesx">{file_name}
+    CAPTION = """ 📂 <i><a href="https://t.me/beautyofthemoviesx">{file_caption}
     
     ⚙️ Sɪᴢᴇ : {file_size}
     ♡ ㅤ  ❍ㅤ     ⎙     ⌲
