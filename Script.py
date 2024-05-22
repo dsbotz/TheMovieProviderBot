@@ -248,9 +248,8 @@ Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
    # PLEASE DO NOT REMOVE ANY CREDITS ❤️‍🩹
     
     CAPTION = """ 📂 <i><a href="https://t.me/beautyofthemoviesx">{file_caption}
-⚙️ Sɪᴢᴇ : {file_size}</a></i>\n\n<b>
-</a></b>\n\n<b>⚜️ POWERED BY : <a href=https://t.me/beautyofthemoviesx>[𝘽𝙏𝙈𝙓] 
-    
+    ⚙️ Sɪᴢᴇ : {file_size}</a></i>\n\n<b></a></b>\n\n<b>
+    ⚜️ POWERED BY : <a href=https://t.me/beautyofthemoviesx>[𝘽𝙏𝙈𝙓] 
     ♡ ㅤ  ❍ㅤ     ⎙     ⌲
    ˡᶦᵏᵉ ᶜᵒᵐᵐᵉⁿᵗ  ˢᵃᵛᵉ  ˢʰᵃʳᵉ</a></b>"""
 
