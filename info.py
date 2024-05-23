@@ -28,6 +28,8 @@ SPELL_IMG = environ.get("SPELL_IMG", "https://telegra.ph/file/15aa2f389716ad852f
 SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://telegra.ph/file/734170f40b8169830d821.jpg'))
 CODE = (environ.get('CODE', 'https://telegra.ph/file/96a22375949b6a0552361.jpg'))
 
+REFER_PICS = (environ.get("REFER_PICS", "https://graph.org/file/1a2e64aee3d4d10edd930.jpg")).split() 
+
 #stream link shortner
 STREAM_SITE = (environ.get('STREAM_SITE', 'link2paisa.com'))
 STREAM_API = (environ.get('STREAM_API', 'fb36d49553dbf50089557d89df1ae468c7578db2'))
